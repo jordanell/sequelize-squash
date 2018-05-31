@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"]
+    }],
+    "transform-es2015-modules-commonjs",
+    "transform-class-properties",
+    "syntax-object-rest-spread"
+  ],
+}

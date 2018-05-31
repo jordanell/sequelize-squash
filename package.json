@@ -1,0 +1,49 @@
+{
+  "name": "sequelize-squash",
+  "version": "0.0.1",
+  "description": "An example repository for squashing migrations with sequelize.",
+  "author": {
+    "name": "Jordan Ell",
+    "email": "me@jordanell.com"
+  },
+  "engines": {
+    "node": ">=8.11.2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "db:create": "babel-node ./scripts/db/create",
+    "db:schema": "babel-node ./scripts/db/schema",
+    "db:create-migration": "babel-node ./scripts/db/createMigration",
+    "db:drop": "babel-node ./scripts/db/drop",
+    "db:migrate": "babel-node ./scripts/db/migrate",
+    "db:rollback": "babel-node ./scripts/db/rollback"
+  },
+  "dependencies": {
+    "babel-core": "6.26.0",
+    "child-process-promise": "2.2.1",
+    "dotenv": "5.0.0",
+    "lodash": "4.17.5",
+    "pg": "4.5.5",
+    "pg-hstore": "2.3.2",
+    "sequelize": "3.30.4",
+    "sequelize-cli": "2.7.0",
+    "whatwg-url": "6.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.2.1",
+    "babel-plugin-istanbul": "4.1.5",
+    "babel-plugin-module-resolver": "3.1.0",
+    "babel-plugin-root-import": "5.1.0",
+    "babel-plugin-syntax-object-rest-spread": "6.13.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "babel-register": "6.26.0",
+    "eslint": "4.17.0",
+    "eslint-config-riipen": "2.0.1",
+    "eslint-import-resolver-babel-module": "4.0.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.6.1"
+  }
+}
